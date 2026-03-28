@@ -1,29 +1,66 @@
-# OpenVINO Release Management
-The process described below reflects the approach to managing OpenVINO releases.
+## OpenVINO Release Management
 
-## Release Milestones
-- Planning
-- Execution (development of new features)
-- Stabilization (Feature Freeze, Code Freeze milestones)
-- Validation
-- Distribution
+The process described below outlines how OpenVINO releases are managed.
+
+### Release Milestones
+
+- Planning  
+- Execution (development of new features)  
+- Stabilization (Feature Freeze, Code Freeze milestones)  
+- Validation  
+- Distribution  
+
+---
 
 ### Planning
-This phase takes 2-4 weeks and involves scoping the backlog, prioritizing it, analyzing, and making commitments by developers for timelines specified by the release manager.
 
-### Execution (development of new features)
-- [OpenVINO Contributing Guide](https://github.com/openvinotoolkit/openvino/blob/master/CONTRIBUTING.md)
-- [Code Contribution Guide](https://docs.openvino.ai/2026/about-openvino/contributing/code-contribution-guide.html)
-- [OpenVINO First Good Issue](https://github.com/openvinotoolkit/openvino/issues/17502)
+This phase takes **2–4 weeks** and involves:
+- Scoping the backlog  
+- Prioritizing tasks  
+- Analyzing requirements  
+- Making commitments by developers based on timelines set by the release manager  
 
-### Stabilization (Feature Freeze, Code Freeze milestones)
-- **Feature Freeze**: This milestone ensures that no new features are added to the software after a certain point. This allows the development team to focus on stabilizing and refining the existing features, fixing bugs, and improving performance without the risk of introducing new issues.
-- **Code Freeze**: This milestone marks the point where no new code changes are allowed except for critical bug fixes. This helps in ensuring that the final product is stable and reliable, as it minimizes the risk of last-minute changes that could introduce new bugs or instability.
+---
+
+### Execution (Development of New Features)
+
+- OpenVINO Contributing Guide  
+- Code Contribution Guide  
+- OpenVINO First Good Issue  
+
+---
+
+### Stabilization (Feature Freeze, Code Freeze)
+
+- **Feature Freeze:**  
+  No new features are added after this point. The team focuses on stabilizing existing features, fixing bugs, and improving performance.
+
+- **Code Freeze:**  
+  No new code changes are allowed except for critical bug fixes. This ensures stability and reduces the risk of introducing new issues.
+
+---
 
 ### Release Validation
-- This is a continuous process executed on a regular basis with cadence based on testing type: nightly, bi-weekly, weekly.
-- After Code Freeze, the testing team can perform final regression testing to ensure that recent changes have not introduced new bugs and that the software meets the required quality standards.
+
+This is a continuous process executed regularly with different cadences:
+- Nightly  
+- Bi-weekly  
+- Weekly  
+
+After Code Freeze, final regression testing is performed to ensure:
+- No new bugs are introduced  
+- Software meets quality standards  
+
+---
 
 ### Distribution
-- OpenVINO has different types of build distribution: Regular releases, Long-Term Support, Pre-release releases, Nightly builds. Read more here: [OpenVINO Release Policy](https://docs.openvino.ai/2026/about-openvino/release-notes-openvino/release-policy.html)
-- Different distribution channels are supported. Explore different options here: [OpenVINO Download](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/download.html)
+
+OpenVINO provides different types of builds:
+- Regular releases  
+- Long-Term Support (LTS)  
+- Pre-release versions  
+- Nightly builds  
+
+For more details:
+- OpenVINO Release Policy  
+- OpenVINO Download  
